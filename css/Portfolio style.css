@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Prompt', sans-serif;
+    scroll-behavior: smooth;
+}
+
+.bg-primary {
+    background-color: #f3593e !important
+}
+
+.bg-MYSET {
+    background: rgb(255,139,89);
+    background: radial-gradient(circle, rgb(255, 116, 56) 30%, rgb(255, 46, 46) 100%);
+}
+
+.text-primary {
+    color: #ff5148 !important
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Prompt', sans-serif;
+    color: #24282b
+}
+
+/* Navigation Bar Config Zone */
+
+#NameOnNav {
+    font-family: 'Prompt', sans-serif;
+    color: #fff;
+    text-transform: none;
+}
+
+.nav-item{
+    font-family: 'Prompt', sans-serif;
+}
+
+/* -------------------------- */
+
+/* About Zone */
+
+#introduct-box{
+    margin-left: 10px;
+}
+
+@media only screen and (max-width: 800px){
+#ProfileAbout{
+    width: 280px;
+    height: 280px;
+}
+
+#introduct-box{
+    margin-top: 20px;
+}
+}
+
+#about-name{
+    color: #f3593e !important
+}
+
+#introduct{
+    color: black;
+}
+
+#sc-icon:hover{
+    background-color: #f3593e;
+    transition: 0.3s ;
+}
+
+#sc-icon-fb:hover{
+    background-color: #248aff;
+    transition: 0.3s ;
+}
+
+#sc-icon-gh:hover{
+    background-color: #000;
+    transition: 0.3s ;
+}
+
+#sc-icon-ln:hover{
+    background-color: rgb(47, 218, 84);
+    transition: 0.3s ;
+}
+
+
+/* Education Zone */
+.METextFont{
+    font-family: 'Prompt', sans-serif;
+}
+
+.METextSizeConfig{
+    font-size: 18px;
+}
+
+.MEHeaderConfig{
+    font-size: 20px;
+}
