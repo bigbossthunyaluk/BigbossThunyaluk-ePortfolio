@@ -39,3 +39,10 @@ $(window).on('hashchange', function(e){
     history.replaceState ("", document.title, e.originalEvent.oldURL);
 });
 
+var popupImgModal = document.getElementById('popupImgModal')
+popupImgModal.addEventListener('show.bs.modal', function (event) {})
+
+
+function ClickToShowImg(element) {
+    document.getElementById("imgModalPreview").src = element.src;
+}
