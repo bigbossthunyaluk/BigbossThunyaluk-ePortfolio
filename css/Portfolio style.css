@@ -211,19 +211,19 @@ ul.timeline > li#timelinenow:before {
 }
 
 .ME-P-TextCONFIG1{
-    font-size: 22px;
-    line-height: 20pt;
+    font-size: 18px;
+    line-height: 18pt;
     color: #333333;
 }
 
 .ME-P-TextCONFIG2{
-    font-size: 18px;
-    line-height: 18pt;
+    font-size: 14px;
+    line-height: 14pt;
 }
 
 .ME-P-TextCONFIG3{
-    font-size: 20px;
-    line-height: 20pt;
+    font-size: 18px;
+    line-height: 18pt;
 }
 
 .MyGithubbtn{
