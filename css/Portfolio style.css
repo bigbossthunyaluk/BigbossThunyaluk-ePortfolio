@@ -289,3 +289,7 @@ ul.timeline > li#timelinenow:before {
 .ACM-header-font{
     font-size: 28px;
 }
+
+.FBbtnTextSize{
+    font-size: 20px;
+}
